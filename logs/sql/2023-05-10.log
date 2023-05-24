@@ -1,0 +1,2 @@
+2023-05-10 20:29:35.804 [DEBU] {84da35cb08c85d1705825655728fa60c} [  2 ms] [default] [shop] [rows:7  ] SHOW FULL COLUMNS FROM `rotation_info`
+2023-05-10 20:29:35.811 [DEBU] {84da35cb08c85d1705825655728fa60c} [  5 ms] [default] [shop] [rows:1  ] INSERT INTO `rotation_info`(`pic_url`,`link`,`sort`,`created_at`,`updated_at`) VALUES('https://wx.zsxq.com/dweb2/index/group/15528828844882','https://images.zsxq.com/FgdL08hVmh-40_e12vh-ifbXpGxB?e=1672502399&token=kIxbL07-8jAj8w1n4s9zv64FuZZNEATmlU_Vm6zD:Cmvo2p6LPARMGyJ2dr-Ef3G3lmY=',1,'2023-05-10 20:29:35','2023-05-10 20:29:35') 

@@ -1,0 +1,20 @@
+2023-05-15 20:36:33.587 [DEBU] {24a3abe750515f172b59a5433fa9c3a0} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-05-15 20:36:33.590 [DEBU] {24a3abe750515f172b59a5433fa9c3a0} [  2 ms] [default] [shop] [rows:7  ] [txid:1] SHOW FULL COLUMNS FROM `rotation_info`
+2023-05-15 20:36:33.591 [DEBU] {24a3abe750515f172b59a5433fa9c3a0} [  1 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `rotation_info` SET `deleted_at`='2023-05-15 20:36:33' WHERE (`id`=8) AND `deleted_at` IS NULL
+2023-05-15 20:36:33.596 [DEBU] {24a3abe750515f172b59a5433fa9c3a0} [  5 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-05-15 20:39:25.110 [DEBU] {f44341d778515f1742b5781382ca1137} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-05-15 20:39:25.112 [DEBU] {f44341d778515f1742b5781382ca1137} [  1 ms] [default] [shop] [rows:7  ] [txid:1] SHOW FULL COLUMNS FROM `rotation_info`
+2023-05-15 20:39:25.113 [DEBU] {f44341d778515f1742b5781382ca1137} [  0 ms] [default] [shop] [rows:0  ] [txid:1] UPDATE `rotation_info` SET `deleted_at`='2023-05-15 20:39:25' WHERE (`id`=8) AND `deleted_at` IS NULL
+2023-05-15 20:39:25.114 [DEBU] {f44341d778515f1742b5781382ca1137} [  1 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-05-15 21:29:49.514 [DEBU] {4039ac0339545f1728e4da5093c7ca58} [  2 ms] [default] [shop] [rows:7  ] SHOW FULL COLUMNS FROM `rotation_info`
+2023-05-15 21:29:49.520 [DEBU] {4039ac0339545f1728e4da5093c7ca58} [  5 ms] [default] [shop] [rows:1  ] INSERT INTO `rotation_info`(`pic_url`,`link`,`sort`,`created_at`,`updated_at`) VALUES('https://wx.zsxq.com/dweb2/index/group/15528828844882','https://images.zsxq.com/FgdL08hVmh-40_e12vh-ifbXpGxB?e=1672502399&token=kIxbL07-8jAj8w1n4s9zv64FuZZNEATmlU_Vm6zD:Cmvo2p6LPARMGyJ2dr-Ef3G3lmY=',1,'2023-05-15 21:29:49','2023-05-15 21:29:49') 
+2023-05-15 21:31:16.750 [DEBU] {14a279534d545f172be4da502e2abd7d} [  0 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-05-15 21:31:16.751 [DEBU] {14a279534d545f172be4da502e2abd7d} [  0 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `rotation_info` SET `pic_url`='http://images/zsxq/com',`link`='https://wx.zsxq.com/dw',`sort`=0,`updated_at`='2023-05-15 21:31:16' WHERE (`id`=9) AND `deleted_at` IS NULL
+2023-05-15 21:31:16.755 [DEBU] {14a279534d545f172be4da502e2abd7d} [  3 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-05-15 21:35:11.005 [DEBU] {5cd820de83545f172ce4da5094ee6e38} [  2 ms] [default] [shop] [rows:0  ] [txid:2] BEGIN
+2023-05-15 21:35:11.005 [DEBU] {5cd820de83545f172ce4da5094ee6e38} [  0 ms] [default] [shop] [rows:0  ] [txid:2] UPDATE `rotation_info` SET `deleted_at`='2023-05-15 21:35:11' WHERE (`id`=8) AND `deleted_at` IS NULL
+2023-05-15 21:35:11.006 [DEBU] {5cd820de83545f172ce4da5094ee6e38} [  0 ms] [default] [shop] [rows:0  ] [txid:2] COMMIT
+2023-05-15 21:38:04.679 [DEBU] {fce1e34dac545f17369be22b953bfa85} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-05-15 21:38:04.681 [DEBU] {fce1e34dac545f17369be22b953bfa85} [  1 ms] [default] [shop] [rows:7  ] [txid:1] SHOW FULL COLUMNS FROM `rotation_info`
+2023-05-15 21:38:04.683 [DEBU] {fce1e34dac545f17369be22b953bfa85} [  1 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `rotation_info` SET `pic_url`='http://images/zsxq/com',`link`='https://wx.zsxq.com/dw',`sort`=0,`updated_at`='2023-05-15 21:38:04' WHERE (`id`=9) AND `deleted_at` IS NULL
+2023-05-15 21:38:04.687 [DEBU] {fce1e34dac545f17369be22b953bfa85} [  4 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
