@@ -8,7 +8,7 @@ type AdminReq struct {
 	g.Meta   `path:"/backend/admin/add" tags:"Admin" method:"post" summary:"Your first admin api"`
 	Name     string `json:"name"    v:"required#用户名不能为空" dc:"用户名"`
 	Password string `json:"password"       v:"required#密码不能为空" dc:"密码"`
-	RoleIds  int    `json:"role_ids"       dc:"角色ids"`
+	RoleIds  string `json:"role_ids"       dc:"角色ids"`
 	IsAdmin  int    `json:"is_admin"     dc:"是否超级管理员"`
 }
 
@@ -28,7 +28,7 @@ type AdminUpdateReq struct {
 	Id       uint   `json:"id"      v:"min:1#请选择需要修改的管理员" dc:"管理员Id"`
 	Name     string `json:"name"    v:"required#用户名不能为空" dc:"用户名"`
 	Password string `json:"password"       v:"required#密码不能为空" dc:"密码"`
-	RoleIds  int    `json:"role_ids"                                   dc:"角色ids"`
+	RoleIds  string `json:"role_ids"                                   dc:"角色ids"`
 	IsAdmin  int    `json:"is_admin"     dc:"是否超级管理员"`
 }
 
