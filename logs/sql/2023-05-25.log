@@ -1,0 +1,12 @@
+2023-05-25 21:28:01.249 [DEBU] {accbae7aed656217a8d3723942b8546f} [ 19 ms] [default] [shop] [rows:8  ] SHOW FULL COLUMNS FROM `admin_info`
+2023-05-25 21:28:01.257 [DEBU] {accbae7aed656217a8d3723942b8546f} [  7 ms] [default] [shop] [rows:1  ] INSERT INTO `admin_info`(`name`,`password`,`role_ids`,`created_at`,`updated_at`,`user_salt`,`is_admin`) VALUES('Evan','4c739c15e88c895dbddffca29cf4ec0e','1','2023-05-25 21:28:01','2023-05-25 21:28:01','OdDfSTRzkP',1) 
+2023-05-25 21:33:41.223 [DEBU] {f02faca33c6662178319ea54eef54a86} [  3 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-05-25 21:33:41.225 [DEBU] {f02faca33c6662178319ea54eef54a86} [  1 ms] [default] [shop] [rows:8  ] [txid:1] SHOW FULL COLUMNS FROM `admin_info`
+2023-05-25 21:33:41.227 [DEBU] {f02faca33c6662178319ea54eef54a86} [  1 ms] [default] [shop] [rows:1  ] [txid:1] DELETE FROM `admin_info` WHERE `id`=13
+2023-05-25 21:33:41.229 [DEBU] {f02faca33c6662178319ea54eef54a86} [  2 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-05-25 21:35:35.872 [DEBU] {bcde6455576662178419ea54ea01055a} [  1 ms] [default] [shop] [rows:0  ] [txid:2] BEGIN
+2023-05-25 21:35:35.873 [DEBU] {bcde6455576662178419ea54ea01055a} [  1 ms] [default] [shop] [rows:0  ] [txid:2] DELETE FROM `admin_info` WHERE `id`=13
+2023-05-25 21:35:35.873 [DEBU] {bcde6455576662178419ea54ea01055a} [  0 ms] [default] [shop] [rows:0  ] [txid:2] COMMIT
+2023-05-25 21:35:49.496 [DEBU] {a04982815a6662178519ea545b56db9d} [  0 ms] [default] [shop] [rows:0  ] [txid:3] BEGIN
+2023-05-25 21:35:49.497 [DEBU] {a04982815a6662178519ea545b56db9d} [  0 ms] [default] [shop] [rows:1  ] [txid:3] DELETE FROM `admin_info` WHERE `id`=3
+2023-05-25 21:35:49.500 [DEBU] {a04982815a6662178519ea545b56db9d} [  3 ms] [default] [shop] [rows:0  ] [txid:3] COMMIT
