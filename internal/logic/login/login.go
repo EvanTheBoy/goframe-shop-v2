@@ -9,7 +9,6 @@ import (
 	"goframe-shop-v2/utility"
 
 	"github.com/gogf/gf/v2/errors/gerror"
-	"github.com/gogf/gf/v2/util/gutil"
 )
 
 type sLogin struct{}
@@ -30,7 +29,6 @@ func (s *sLogin) Login(ctx context.Context, in model.UserLoginInput) error {
 	if err != nil {
 		return err
 	}
-	gutil.Dump("加密后密码：", utility.EncryptPassword(in.Name, adminInfo.UserSalt))
 	if utility.EncryptPassword(in.Password, adminInfo.UserSalt) != adminInfo.Password {
 		return gerror.New("账号或者密码不正确")
 	}
