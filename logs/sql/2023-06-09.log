@@ -1,0 +1,22 @@
+2023-06-09 00:03:30.563 [DEBU] {8ce6779489ba66170a8f993389637b32} [  2 ms] [default] [shop] [rows:9  ] SHOW FULL COLUMNS FROM `position_info`
+2023-06-09 00:03:30.569 [DEBU] {8ce6779489ba66170a8f993389637b32} [  5 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('https://images.msb.com','','https://articles.msb.com',0,0,'2023-06-09 00:03:30','2023-06-09 00:03:30') 
+2023-06-09 00:03:57.788 [DEBU] {48ef05eb8fba66170b8f993310db8161} [  4 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('https://images.msb.com','','https://articles.msb.com',0,0,'2023-06-09 00:03:57','2023-06-09 00:03:57') 
+2023-06-09 00:04:30.065 [DEBU] {a42b1e6f97ba66170c8f9933f614c0f6} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-09 00:04:30.066 [DEBU] {a42b1e6f97ba66170c8f9933f614c0f6} [  1 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `position_info` SET `deleted_at`='2023-06-09 00:04:30' WHERE (`id`=8) AND `deleted_at` IS NULL
+2023-06-09 00:04:30.070 [DEBU] {a42b1e6f97ba66170c8f9933f614c0f6} [  3 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-09 00:09:56.476 [DEBU] {c035a76ee3ba66179d885d6b3ee6cd0f} [  2 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-09 00:09:56.478 [DEBU] {c035a76ee3ba66179d885d6b3ee6cd0f} [  1 ms] [default] [shop] [rows:9  ] [txid:1] SHOW FULL COLUMNS FROM `position_info`
+2023-06-09 00:09:56.479 [DEBU] {c035a76ee3ba66179d885d6b3ee6cd0f} [  1 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `position_info` SET `pic_url`='https://images.msb.com',`goods_name`='',`link`='https://articles.msb.com',`sort`=0,`goods_id`=0,`updated_at`='2023-06-09 00:09:56' WHERE (`id`=6) AND `deleted_at` IS NULL
+2023-06-09 00:09:56.483 [DEBU] {c035a76ee3ba66179d885d6b3ee6cd0f} [  4 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-09 00:10:33.956 [DEBU] {9878ab28ecba6617588881087c21fb55} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-09 00:10:33.958 [DEBU] {9878ab28ecba6617588881087c21fb55} [  1 ms] [default] [shop] [rows:9  ] [txid:1] SHOW FULL COLUMNS FROM `position_info`
+2023-06-09 00:10:33.959 [DEBU] {9878ab28ecba6617588881087c21fb55} [  1 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `position_info` SET `pic_url`='https://images.msb.com',`goods_name`='',`link`='https://articles.msb.com',`sort`=0,`goods_id`=0,`updated_at`='2023-06-09 00:10:33' WHERE (`id`=6) AND `deleted_at` IS NULL
+2023-06-09 00:10:33.964 [DEBU] {9878ab28ecba6617588881087c21fb55} [  5 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-09 00:13:51.835 [DEBU] {7c9c2b3b1abb661760ef6279fb9d6be0} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-09 00:13:51.837 [DEBU] {7c9c2b3b1abb661760ef6279fb9d6be0} [  1 ms] [default] [shop] [rows:9  ] [txid:1] SHOW FULL COLUMNS FROM `position_info`
+2023-06-09 00:13:51.838 [DEBU] {7c9c2b3b1abb661760ef6279fb9d6be0} [  1 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `position_info` SET `pic_url`='https://images.msb.com',`goods_name`='背心',`link`='https://articles.msb.com',`sort`=0,`goods_id`=2,`updated_at`='2023-06-09 00:13:51' WHERE (`id`=6) AND `deleted_at` IS NULL
+2023-06-09 00:13:51.843 [DEBU] {7c9c2b3b1abb661760ef6279fb9d6be0} [  5 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-09 00:14:22.425 [DEBU] {bc538b5a21bb661761ef62797f77fc38} [  1 ms] [default] [shop] [rows:0  ] [txid:2] BEGIN
+2023-06-09 00:14:22.426 [DEBU] {bc538b5a21bb661761ef62797f77fc38} [  0 ms] [default] [shop] [rows:1  ] [txid:2] UPDATE `position_info` SET `pic_url`='https://images.msb.com',`goods_name`='匹克拖鞋',`link`='https://articles.msb.com',`sort`=0,`goods_id`=3,`updated_at`='2023-06-09 00:14:22' WHERE (`id`=7) AND `deleted_at` IS NULL
+2023-06-09 00:14:22.430 [DEBU] {bc538b5a21bb661761ef62797f77fc38} [  4 ms] [default] [shop] [rows:0  ] [txid:2] COMMIT
+2023-06-09 00:15:13.187 [DEBU] {e4b6dc2b2dbb661762ef62792539fe52} [  6 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('https://images.yuque.com','短裤','https://articles.yuque.com',0,8,'2023-06-09 00:15:13','2023-06-09 00:15:13') 

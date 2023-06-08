@@ -39,7 +39,7 @@ type PositionUpdateRes struct {
 }
 
 type PositionGetListCommonReq struct {
-	g.Meta `path:"/position/list" method:"get" tags:"手工位图" summary:"手工位图列表接口"`
+	g.Meta `path:"/backend/position/list" method:"get" tags:"手工位图" summary:"手工位图列表接口"`
 	Sort   int `json:"sort"   in:"query" dc:"排序类型"`
 	CommonPaginationReq
 }

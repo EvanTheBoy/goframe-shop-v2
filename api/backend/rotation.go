@@ -35,7 +35,7 @@ type RotationUpdateRes struct {
 }
 
 type RotationGetListCommonReq struct {
-	g.Meta `path:"/rotation/list" method:"get" tags:"轮播图" summary:"轮播图列表接口"`
+	g.Meta `path:"/backend/rotation/list" method:"get" tags:"轮播图" summary:"轮播图列表接口"`
 	Sort   int `json:"sort"   in:"query" dc:"排序类型"`
 	CommonPaginationReq
 }

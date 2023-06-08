@@ -16,9 +16,11 @@ type cPosition struct{}
 func (a *cPosition) Create(ctx context.Context, req *backend.PositionReq) (res *backend.PositionRes, err error) {
 	out, err := service.Position().Create(ctx, model.PositionCreateInput{
 		PositionCreateUpdateBase: model.PositionCreateUpdateBase{
-			PicUrl: req.PicUrl,
-			Link:   req.Link,
-			Sort:   req.Sort,
+			PicUrl:    req.PicUrl,
+			Link:      req.Link,
+			Sort:      req.Sort,
+			GoodsName: req.GoodsName,
+			GoodsId:   req.GoodsId,
 		},
 	})
 	if err != nil {
@@ -36,9 +38,11 @@ func (a *cPosition) Update(ctx context.Context, req *backend.PositionUpdateReq) 
 	err = service.Position().Update(ctx, model.PositionUpdateInput{
 		Id: req.Id,
 		PositionCreateUpdateBase: model.PositionCreateUpdateBase{
-			PicUrl: req.PicUrl,
-			Link:   req.Link,
-			Sort:   req.Sort,
+			PicUrl:    req.PicUrl,
+			Link:      req.Link,
+			Sort:      req.Sort,
+			GoodsName: req.GoodsName,
+			GoodsId:   req.GoodsId,
 		},
 	})
 	return
@@ -53,7 +57,8 @@ func (a *cPosition) List(ctx context.Context, req *backend.PositionGetListCommon
 	if err != nil {
 		return nil, err
 	}
-	return &backend.PositionGetListCommonRes{List: getListRes.List,
+	return &backend.PositionGetListCommonRes{
+		List:  getListRes.List,
 		Page:  getListRes.Page,
 		Size:  getListRes.Size,
 		Total: getListRes.Total}, nil

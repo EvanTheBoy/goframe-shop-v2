@@ -1,0 +1,25 @@
+2023-06-08 21:00:12.195 [DEBU] {e8701ed188b06617df49880ccf08d682} [ 27 ms] [default] [shop] [rows:7  ] SHOW FULL COLUMNS FROM `rotation_info`
+2023-06-08 21:00:12.203 [DEBU] {e8701ed188b06617df49880ccf08d682} [  7 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `rotation_info` WHERE `deleted_at` IS NULL
+2023-06-08 21:00:12.203 [DEBU] {e8701ed188b06617df49880ccf08d682} [  0 ms] [default] [shop] [rows:2  ] SELECT `id`,`pic_url`,`link`,`sort`,`created_at`,`updated_at` FROM `rotation_info` WHERE `deleted_at` IS NULL LIMIT 0,20
+2023-06-08 21:13:09.104 [DEBU] {188bf3b53db166174cd93f47c8937f15} [  3 ms] [default] [shop] [rows:7  ] SHOW FULL COLUMNS FROM `rotation_info`
+2023-06-08 21:13:09.105 [DEBU] {188bf3b53db166174cd93f47c8937f15} [  0 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `rotation_info` WHERE `deleted_at` IS NULL
+2023-06-08 21:13:09.106 [DEBU] {188bf3b53db166174cd93f47c8937f15} [  0 ms] [default] [shop] [rows:2  ] SELECT `id`,`pic_url`,`link`,`sort`,`created_at`,`updated_at` FROM `rotation_info` WHERE `deleted_at` IS NULL LIMIT 0,20
+2023-06-08 23:37:17.772 [DEBU] {3483b6621bb9661762a6a143b1bea53c} [  3 ms] [default] [shop] [rows:9  ] SHOW FULL COLUMNS FROM `position_info`
+2023-06-08 23:37:17.782 [DEBU] {3483b6621bb9661762a6a143b1bea53c} [ 10 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('https://photos.zsxq.com','','https://paragraphs.zsxq.com',0,0,'2023-06-08 23:37:17','2023-06-08 23:37:17') 
+2023-06-08 23:38:03.395 [DEBU] {9c5dfc0126b9661764a6a1436a6f5762} [  5 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('https://photos.zsxq.com','','https://paragraphs.zsxq.com',0,0,'2023-06-08 23:38:03','2023-06-08 23:38:03') 
+2023-06-08 23:39:10.336 [DEBU] {c83b429835b9661765a6a14309e05aac} [  0 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-08 23:39:10.338 [DEBU] {c83b429835b9661765a6a14309e05aac} [  1 ms] [default] [shop] [rows:0  ] [txid:1] UPDATE `position_info` SET `deleted_at`='2023-06-08 23:39:10' WHERE (`id`=2) AND `deleted_at` IS NULL
+2023-06-08 23:39:10.338 [DEBU] {c83b429835b9661765a6a14309e05aac} [  0 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-08 23:39:43.473 [DEBU] {e84e504f3db9661766a6a1439ad9261f} [  1 ms] [default] [shop] [rows:0  ] [txid:2] BEGIN
+2023-06-08 23:39:43.473 [DEBU] {e84e504f3db9661766a6a1439ad9261f} [  0 ms] [default] [shop] [rows:1  ] [txid:2] UPDATE `position_info` SET `deleted_at`='2023-06-08 23:39:43' WHERE (`id`=3) AND `deleted_at` IS NULL
+2023-06-08 23:39:43.478 [DEBU] {e84e504f3db9661766a6a1439ad9261f} [  4 ms] [default] [shop] [rows:0  ] [txid:2] COMMIT
+2023-06-08 23:39:58.034 [DEBU] {d0e451b340b9661767a6a143c130f745} [  0 ms] [default] [shop] [rows:0  ] [txid:3] BEGIN
+2023-06-08 23:39:58.036 [DEBU] {d0e451b340b9661767a6a143c130f745} [  1 ms] [default] [shop] [rows:1  ] [txid:3] UPDATE `position_info` SET `deleted_at`='2023-06-08 23:39:58' WHERE (`id`=4) AND `deleted_at` IS NULL
+2023-06-08 23:39:58.040 [DEBU] {d0e451b340b9661767a6a143c130f745} [  4 ms] [default] [shop] [rows:0  ] [txid:3] COMMIT
+2023-06-08 23:40:48.028 [DEBU] {94c9d1564cb9661768a6a143af9f5091} [  6 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('https://photos.zsxq.com','','https://paragraphs.zsxq.com',0,0,'2023-06-08 23:40:48','2023-06-08 23:40:48') 
+2023-06-08 23:43:37.479 [DEBU] {482233cb73b9661769a6a1434616ec98} [  1 ms] [default] [shop] [rows:0  ] [txid:4] BEGIN
+2023-06-08 23:43:37.480 [DEBU] {482233cb73b9661769a6a1434616ec98} [  0 ms] [default] [shop] [rows:1  ] [txid:4] UPDATE `position_info` SET `deleted_at`='2023-06-08 23:43:37' WHERE (`id`=5) AND `deleted_at` IS NULL
+2023-06-08 23:43:37.484 [DEBU] {482233cb73b9661769a6a1434616ec98} [  4 ms] [default] [shop] [rows:0  ] [txid:4] COMMIT
+2023-06-08 23:44:16.357 [DEBU] {84980bd87cb966176aa6a1432ec04d4b} [  9 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('https://photos.zsxq.com','','https://paragraphs.zsxq.com',0,0,'2023-06-08 23:44:16','2023-06-08 23:44:16') 
+2023-06-08 23:46:31.735 [DEBU] {94f5a35d9cb966176ba6a143883a0056} [  1 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `position_info` WHERE `deleted_at` IS NULL
+2023-06-08 23:46:31.736 [DEBU] {94f5a35d9cb966176ba6a143883a0056} [  0 ms] [default] [shop] [rows:1  ] SELECT `id`,`pic_url`,`link`,`sort`,`goods_name`,`goods_id`,`created_at`,`updated_at` FROM `position_info` WHERE `deleted_at` IS NULL LIMIT 0,20
