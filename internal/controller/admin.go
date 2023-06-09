@@ -54,7 +54,8 @@ func (a *cAdmin) List(ctx context.Context, req *backend.AdminGetListCommonReq) (
 	if err != nil {
 		return nil, err
 	}
-	return &backend.AdminGetListCommonRes{List: getListRes.List,
+	return &backend.AdminGetListCommonRes{
+		List:  getListRes.List,
 		Page:  getListRes.Page,
 		Size:  getListRes.Size,
 		Total: getListRes.Total}, nil

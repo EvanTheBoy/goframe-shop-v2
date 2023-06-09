@@ -20,3 +20,30 @@
 2023-06-09 00:14:22.426 [DEBU] {bc538b5a21bb661761ef62797f77fc38} [  0 ms] [default] [shop] [rows:1  ] [txid:2] UPDATE `position_info` SET `pic_url`='https://images.msb.com',`goods_name`='匹克拖鞋',`link`='https://articles.msb.com',`sort`=0,`goods_id`=3,`updated_at`='2023-06-09 00:14:22' WHERE (`id`=7) AND `deleted_at` IS NULL
 2023-06-09 00:14:22.430 [DEBU] {bc538b5a21bb661761ef62797f77fc38} [  4 ms] [default] [shop] [rows:0  ] [txid:2] COMMIT
 2023-06-09 00:15:13.187 [DEBU] {e4b6dc2b2dbb661762ef62792539fe52} [  6 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('https://images.yuque.com','短裤','https://articles.yuque.com',0,8,'2023-06-09 00:15:13','2023-06-09 00:15:13') 
+2023-06-09 16:23:03.765 [DEBU] {9cf525c8fdef6617be487b09dfa655f1} [  4 ms] [default] [shop] [rows:9  ] SHOW FULL COLUMNS FROM `position_info`
+2023-06-09 16:23:03.771 [DEBU] {9cf525c8fdef6617be487b09dfa655f1} [  6 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('https://images.socks.com','耐克长筒白袜','https://articles.socks.com',0,4,'2023-06-09 16:23:03','2023-06-09 16:23:03') 
+2023-06-09 16:32:46.559 [DEBU] {509d9a7985f06617bf487b09a4bd9b0b} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-09 16:32:46.560 [DEBU] {509d9a7985f06617bf487b09a4bd9b0b} [  0 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `position_info` SET `deleted_at`='2023-06-09 16:32:46' WHERE (`id`=6) AND `deleted_at` IS NULL
+2023-06-09 16:32:46.563 [DEBU] {509d9a7985f06617bf487b09a4bd9b0b} [  2 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-09 16:46:06.195 [DEBU] {b0c37ba73ff16617cc099f0b810c0654} [  2 ms] [default] [shop] [rows:9  ] SHOW FULL COLUMNS FROM `position_info`
+2023-06-09 16:46:06.196 [DEBU] {b0c37ba73ff16617cc099f0b810c0654} [  0 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `position_info` WHERE `deleted_at` IS NULL
+2023-06-09 16:46:06.197 [DEBU] {b0c37ba73ff16617cc099f0b810c0654} [  0 ms] [default] [shop] [rows:3  ] SELECT `id`,`pic_url`,`link`,`sort`,`goods_name`,`goods_id`,`created_at`,`updated_at` FROM `position_info` WHERE `deleted_at` IS NULL LIMIT 0,20
+2023-06-09 16:48:35.833 [DEBU] {08b6c37e62f16617cd099f0bd1dfbc66} [  1 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `position_info` WHERE `deleted_at` IS NULL
+2023-06-09 16:48:35.834 [DEBU] {08b6c37e62f16617cd099f0bd1dfbc66} [  0 ms] [default] [shop] [rows:2  ] SELECT `id`,`pic_url`,`link`,`sort`,`goods_name`,`goods_id`,`created_at`,`updated_at` FROM `position_info` WHERE `deleted_at` IS NULL LIMIT 0,2
+2023-06-09 16:49:23.953 [DEBU] {4c80e9b26df16617ce099f0bfc8aaaff} [  1 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `position_info` WHERE `deleted_at` IS NULL
+2023-06-09 16:49:23.954 [DEBU] {4c80e9b26df16617ce099f0bfc8aaaff} [  0 ms] [default] [shop] [rows:3  ] SELECT `id`,`pic_url`,`link`,`sort`,`goods_name`,`goods_id`,`created_at`,`updated_at` FROM `position_info` WHERE `deleted_at` IS NULL LIMIT 0,3
+2023-06-09 16:49:39.053 [DEBU] {1c71f13671f16617cf099f0b25a68197} [  1 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `position_info` WHERE `deleted_at` IS NULL
+2023-06-09 16:49:39.053 [DEBU] {1c71f13671f16617cf099f0b25a68197} [  0 ms] [default] [shop] [rows:3  ] SELECT `id`,`pic_url`,`link`,`sort`,`goods_name`,`goods_id`,`created_at`,`updated_at` FROM `position_info` WHERE `deleted_at` IS NULL LIMIT 0,20
+2023-06-09 16:53:16.766 [DEBU] {d0e46de7a3f16617d0099f0b327cf168} [  4 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('https://images.vest.com','耐克背心','https://articles.vest.com',0,2,'2023-06-09 16:53:16','2023-06-09 16:53:16') 
+2023-06-09 16:54:43.870 [DEBU] {f85f6e2fb8f16617d1099f0bcbcf49c1} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-09 16:54:43.871 [DEBU] {f85f6e2fb8f16617d1099f0bcbcf49c1} [  1 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `position_info` SET `pic_url`='https://nike.vest.com',`goods_name`='背心',`link`='https://underarmour.vest.com',`sort`=0,`goods_id`=2,`updated_at`='2023-06-09 16:54:43' WHERE (`id`=11) AND `deleted_at` IS NULL
+2023-06-09 16:54:43.874 [DEBU] {f85f6e2fb8f16617d1099f0bcbcf49c1} [  3 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-09 16:54:58.315 [DEBU] {848b7e8cbbf16617d2099f0bb3a6bcc3} [  0 ms] [default] [shop] [rows:0  ] [txid:2] BEGIN
+2023-06-09 16:54:58.316 [DEBU] {848b7e8cbbf16617d2099f0bb3a6bcc3} [  0 ms] [default] [shop] [rows:1  ] [txid:2] UPDATE `position_info` SET `pic_url`='https://nike.vest.com',`goods_name`='耐克背心',`link`='https://underarmour.vest.com',`sort`=0,`goods_id`=2,`updated_at`='2023-06-09 16:54:58' WHERE (`id`=11) AND `deleted_at` IS NULL
+2023-06-09 16:54:58.320 [DEBU] {848b7e8cbbf16617d2099f0bb3a6bcc3} [  3 ms] [default] [shop] [rows:0  ] [txid:2] COMMIT
+2023-06-09 16:55:07.567 [DEBU] {f8bef3b3bdf16617d3099f0bc9e4d97c} [  0 ms] [default] [shop] [rows:0  ] [txid:3] BEGIN
+2023-06-09 16:55:07.568 [DEBU] {f8bef3b3bdf16617d3099f0bc9e4d97c} [  1 ms] [default] [shop] [rows:1  ] [txid:3] UPDATE `position_info` SET `pic_url`='https://nike.vest.com',`goods_name`='背心',`link`='https://underarmour.vest.com',`sort`=0,`goods_id`=2,`updated_at`='2023-06-09 16:55:07' WHERE (`id`=11) AND `deleted_at` IS NULL
+2023-06-09 16:55:07.570 [DEBU] {f8bef3b3bdf16617d3099f0bc9e4d97c} [  2 ms] [default] [shop] [rows:0  ] [txid:3] COMMIT
+2023-06-09 17:03:19.595 [DEBU] {e008064330f26617d4099f0b916b7a08} [  1 ms] [default] [shop] [rows:0  ] [txid:4] BEGIN
+2023-06-09 17:03:19.596 [DEBU] {e008064330f26617d4099f0b916b7a08} [  1 ms] [default] [shop] [rows:1  ] [txid:4] UPDATE `position_info` SET `pic_url`='https://nike.vest.com',`goods_name`='耐克背心',`link`='https://underarmour.vest.com',`sort`=0,`goods_id`=2,`updated_at`='2023-06-09 17:03:19' WHERE (`id`=11) AND `deleted_at` IS NULL
+2023-06-09 17:03:19.599 [DEBU] {e008064330f26617d4099f0b916b7a08} [  3 ms] [default] [shop] [rows:0  ] [txid:4] COMMIT
